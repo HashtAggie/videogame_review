@@ -1,7 +1,8 @@
+
 class VideogameReviews::Application
   config.middleware.insert_before 0,  "Rack::Cors", debug: true, logger: (-> { Rails.logger }) do
     allow do
-      origins 'localhost:4200', '127.0.0.1:4200'
+      origins 'localhost:3000', '127.0.0.1:3000'
 
       resource '/cors',
         headers: :any,

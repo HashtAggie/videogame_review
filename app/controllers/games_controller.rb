@@ -6,7 +6,7 @@ class GamesController < ApplicationController
 
     respond_to do |f|
       f.html
-      f.json { render json: { category: @category, games: @games } }
+      f.json { render json: { category: @category, game: @game } }
     end
   end
 
