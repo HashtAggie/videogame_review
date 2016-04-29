@@ -18,6 +18,7 @@ Game.create(title: "Risk", category: board_games)
 
 puts "seeded #{Game.count} games!"
 
+
 Review.create(game_id:"Commandos", comments: "This game is actually for loser who wants to kill people in virtual warzone")
 Review.create(game_id:"Settlers", comments: "Settlers if fun for old people. Yeah, that means you!")
 Review.create(game_id:"Splinter Cell", comments: "Ubisoft need to fix this shit, because it's awful. ")
