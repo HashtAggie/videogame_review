@@ -18,9 +18,9 @@ Game.create(title: "Risk", category: board_games)
 
 puts "seeded #{Game.count} games!"
 
-Review.create(game_id:"Commandos", comment: "This game is actually for loser who wants to kill people in virtual warzone")
-Review.create(game_id:"Settlers", comment: "Settlers if fun for old people. Yeah, that means you!")
-Review.create(game_id:"Splinter Cell", comment: "Ubisoft need to fix this shit, because it's awful. ")
-Review.create(game_id:"Mortal Kombat", comment: "Ultimate kickass game with gore! FATALITY")
-Review.create(game_id:"The Legend of Zelda: Ocarina of Time", comment: "ERMAHGERD!!!!!! BEST GAME EVAAAAAAAAAAAAAAAH!!! SERIOUSLY!!!")
-Review.create(game_id:"Commandos", comment: "This game is actually for loser who wants to kill people in virual warzone")
+Review.create(game_id:"Commandos", commentss: "This game is actually for loser who wants to kill people in virtual warzone")
+Review.create(game_id:"Settlers", comments: "Settlers if fun for old people. Yeah, that means you!")
+Review.create(game_id:"Splinter Cell", comments: "Ubisoft need to fix this shit, because it's awful. ")
+Review.create(game_id:"Mortal Kombat", comments: "Ultimate kickass game with gore! FATALITY")
+Review.create(game_id:"The Legend of Zelda: Ocarina of Time", comments: "ERMAHGERD!!!!!! BEST GAME EVAAAAAAAAAAAAAAAH!!! SERIOUSLY!!!")
+Review.create(game_id:"Commandos", comments: "This game is actually for loser who wants to kill people in virual warzone")
