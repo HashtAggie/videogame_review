@@ -18,10 +18,13 @@ Game.create(title: "Risk", category: board_games)
 
 puts "seeded #{Game.count} games!"
 
+puts "Seeding some comments... "
 
-Review.create(game_id:"Commandos", comments: "This game is actually for loser who wants to kill people in virtual warzone")
-Review.create(game_id:"Settlers", comments: "Settlers if fun for old people. Yeah, that means you!")
-Review.create(game_id:"Splinter Cell", comments: "Ubisoft need to fix this shit, because it's awful. ")
-Review.create(game_id:"Mortal Kombat", comments: "Ultimate kickass game with gore! FATALITY")
-Review.create(game_id:"The Legend of Zelda: Ocarina of Time", comments: "ERMAHGERD!!!!!! BEST GAME EVAAAAAAAAAAAAAAAH!!! SERIOUSLY!!!")
-Review.create(game_id:"Commandos", comments: "This game is actually for loser who wants to kill people in virual warzone")
+Review.create(game_id:1, comments: "This game is actually for loser who wants to kill people in virtual warzone")
+Review.create(game_id:2, comments: "Settlers if fun for old people. Yeah, that means you!")
+Review.create(game_id:3, comments: "Ubisoft need to fix this shit, because it's awful. ")
+Review.create(game_id:4, comments: "Ultimate kickass game with gore! FATALITY")
+Review.create(game_id:5, comments: "ERMAHGERD!!!!!! BEST GAME EVAAAAAAAAAAAAAAAH!!! SERIOUSLY!!!")
+Review.create(game_id:6, comments: "This game is actually for loser who wants to kill people in virual warzone")
+
+print "seeded #{Review.count} reviews!"

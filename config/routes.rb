@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   resources :reviews
 
   resources :categories do
-    resources :games
+    resources :games do
+      resources :reviews
+    end
   end
 
 end
